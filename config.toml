@@ -1,4 +1,19 @@
 baseURL = 'https://abmfy.github.io/'
 languageCode = 'zh-CN'
-title = "abmfy's blog"
 theme = 'ananke'
+
+title = "abmfy's space"
+
+DefaultContentLanguage = "zh"
+SectionPagesMenu = "main"
+Paginate = 10
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  description = "「嫌いなんて序の口　そう思うと楽だし」"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
