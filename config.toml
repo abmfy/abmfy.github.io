@@ -8,12 +8,6 @@ DefaultContentLanguage = "zh"
 SectionPagesMenu = "main"
 Paginate = 10
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
 [params]
-  description = "「嫌いなんて序の口　そう思うと楽だし」"
-  background_color_class = "bg-black"
+  description = "A paradise far removed from the hubbub of life."
   recent_posts_number = 3
