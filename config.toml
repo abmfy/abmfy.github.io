@@ -23,6 +23,10 @@ recent_posts_number = 3
 [params]
 comments = true
 math = true
+github = 'abmfy'
+avatar = 'abmfy@icloud.com'
+name = 'abmfy'
+bio = '👋Hello!'
 
 [params.giscus]
 repo = "abmfy/abmfy.github.io"
