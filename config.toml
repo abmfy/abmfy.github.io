@@ -1,13 +1,16 @@
 baseURL = 'https://abmfy.github.io/'
 languageCode = 'zh-CN'
-theme = 'ananke'
+theme = 'paper'
 
 title = "abmfy's space"
+description = "A paradise far removed from the hubbub of life."
 
 DefaultContentLanguage = "zh"
 SectionPagesMenu = "main"
-Paginate = 10
+Paginate = 15
 
-[params]
-  description = "A paradise far removed from the hubbub of life."
-  recent_posts_number = 3
+recent_posts_number = 3
+
+[params.homeInfoParams]
+Title = "Hello from abmfy! 👋"
+
