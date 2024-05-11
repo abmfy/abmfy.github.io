@@ -11,8 +11,18 @@ Paginate = 15
 
 recent_posts_number = 3
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
 [params]
 comments = true
+math = true
 
 [params.giscus]
 repo = "abmfy/abmfy.github.io"
