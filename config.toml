@@ -11,6 +11,22 @@ Paginate = 15
 
 recent_posts_number = 3
 
+[params]
+comments = true
+
+[params.giscus]
+repo = "abmfy/abmfy.github.io"
+repoId = "R_kgDOIyrnmQ"
+category = "General"
+categoryId = "DIC_kwDOIyrnmc4CfSV_"
+mapping = "pathname"
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "preferred_color_scheme"
+lang = "zh-CN"
+
 [params.homeInfoParams]
 Title = "Hello from abmfy! 👋"
 
